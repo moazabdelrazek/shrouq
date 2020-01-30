@@ -1,0 +1,8 @@
+shopping-cart.html  replace to product-details
+
+edit input number min 0 to unlimite
+
+2>>>>
+backet 
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
