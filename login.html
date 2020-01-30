@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Login</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+         <!-- Styles And Fonts  -->
+         <link rel="stylesheet" href="css/all.min.css">
+         <link rel="stylesheet" href="css/master.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/media.css">
+        
+    </head>
+    <body>
+
+        <!-- Start Navbar -->
+        <nav class="navbar navbar-expand-lg fixed-top">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <form class="form-inline search-container ml-auto my-2 my-lg-0">
+                <i class="fas fa-search search-icon"></i>
+                <input class="form-control mr-sm-2 search-in" type="search" placeholder="Search Products, Brands and Categories" aria-label="Search">
+                <button class="btn btn-primary my-2 my-sm-0 search-btn" type="submit">Search</button>
+              </form>
+      
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="far fa-user"></i> Login
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a href="login.html"><button class="btn btn-primary login-btn">Login</button></a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="register.html"><span class="text-primary text-selection">Create An Account</span></a>
+                    <div class="dropdown-divider" style="margin-bottom:0px"></div>
+                    <a class="dropdown-item login-item" href="#"><i class="far fa-user"></i> Account</a>
+                    <a class="dropdown-item login-item" href="#"><i class="fas fa-box"></i>Orders</a>
+                    <a class="dropdown-item login-item" href="#"><i class="far fa-heart"></i>Saved items</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="far fa-question-circle"></i> Help
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-item text-center">Contact Us <br> 11999</div>
+                    <div class="dropdown-divider" style="margin-bottom:0px"></div>
+                    <a class="dropdown-item login-item" href="#">FAQs</a>
+                    <a class="dropdown-item login-item" href="#">Contact Us</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+                </li>
+              </ul>
+      
+            </div>
+          </nav>
+          <!-- End Navbar -->
+
+        <div class="login">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 login-form">
+                        <h4>login</h4>
+                        <form action="#">
+                            <input type="email" name="email" id="email" placeholder="e-mail">
+                            <input type="password" name="password" id="password" placeholder="password">
+                        </form>
+                        <input class="check" type="checkbox" name="remember" id="remember"><label for="remember">remember me</label><a href="forget.html"><span>forget your password?</span></a>
+                        <button class="btn btn-block btn-primary"><i class="fa fa-envelope-o" aria-hidden="true"></i>login</button>
+                        <button class="btn btn-block face"><i class="fa fa-facebook-square" aria-hidden="true"></i>login with facebook</button>
+                    </div>
+                    <div class="col-md-6 create-account">
+                        <h4>create your account</h4>
+                        <p>Create your customer account in just a few clicks! You can register either using your e-mail address or through your Facebook account.</p>
+                        <a href="register.html"><button class="btn btn-block btn-primary"><i class="fa fa-envelope-o" aria-hidden="true"></i>create an account via email</button></a>
+                        <button class="btn btn-block face"><i class="fa fa-facebook-square" aria-hidden="true"></i>register with facebook</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Start Pre Footer -->
+      <section class="pre-footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                  <h4> Quick Links</h4>
+                  <ul class="ula">
+                    <li><a href="">about us <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
+                    <li><a href="">Faq <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
+                    <li><a href="">Help <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
+                    <li><a href="">My account <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
+                    <li><a href="">Create account <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
+                    <li><a href="">Contacts<i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
+    
+                  </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <h4> Categories</h4>
+                    <ul class="ula">
+                      <li><a href="">Shops <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
+                      <li><a href="">Hotels <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
+                      <li><a href="">Restaurant <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
+                      <li><a href="">Bars <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
+                      <li><a href="">Events <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
+                      <li><a href="">Fitness <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
+    
+                    </ul>
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-6">
+                      <h4> Contacts</h4>
+                      <ul class="ula">
+                        <li><a href=""><i class="fas fa-home" aria-hidden="true"></i>97845 Baker st. 567
+                          Los Angeles - US </a> </li>
+                        <li><a href=""><i class="fas fa-headphones-alt" aria-hidden="true"></i>01015683986 </a> </li>
+                        <li><a href=""> <i class="far fa-envelope" aria-hidden="true"></i>medhatashour19@gmail.com</a> </li>
+                      </ul>
+                    </div>
+    
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                      <h4> Keep in touch</h4>
+                      <ul class="ula">
+                        <li>
+                          <input type="email" placeholder="your email"><button class=" cclr">submit</button>
+                        </li>
+                        <li class="spli follow">
+                          <h5>Follow Us</h5>
+                          <ul>
+                            <li class="spli"><i class="scl fab fa-facebook-f" aria-hidden="true"></i></li>
+                            <li class="spli"><i class="scl fab fa-twitter" aria-hidden="true"></i></li>
+                            <li class="spli"><i class="scl fab fa-google-plus-g" aria-hidden="true"></i></li>
+                            <li class="spli"><i class="scl fab fa-pinterest-p" aria-hidden="true"></i></li>
+                            <li class="spli"><i class="scl fab fa-instagram" aria-hidden="true"></i></li>
+    
+                          </ul>
+                        </li>
+    
+                      </ul>
+                    </div>
+    
+              </div>
+            </div>
+          </section>
+          <!-- End Pre footer -->
+    
+          <!-- Start Footer -->
+          <div class="footer">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6">
+                  <select>
+                    <option selected="">English</option>
+                    <option>Arabic</option>
+                    <option>Francias</option>
+                    <option>Chainese</option>
+                  </select>
+                  <select>
+                      <option selected="" style="color:#fff">US Dollars</option>
+                      <option>Euro</option>
+                      <option>Pound</option>
+                      <option>yen</option>
+                    </select>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <a href="" class="link-unstyled"><li>Terms and conditions</li></a>
+                    <li class="spl">Privacy</li>
+                    <li> © 2019 4Soft.com</li>
+                  </ul>
+                </div>
+    
+              </div>
+            </div>
+          </div>
+          <!-- End Footer -->
+    
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
