@@ -338,3 +338,11 @@ aside ul li .fa {
     left: 10px;
 }
 /*End style user-home.html*/
+
+
+/*Start style check-out.html*/
+.check-out .check-details>div h5 .fa {
+    margin-right: 0;
+    margin-left: 10px;
+}
+/*End style check-out.html*/
