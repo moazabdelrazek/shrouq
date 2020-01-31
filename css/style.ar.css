@@ -288,3 +288,53 @@ aside .progress-price {
     margin-left: 45px;
 }
 /*End style products.html*/
+
+
+/*Start style user-home.html*/
+.user-home aside {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+aside ul li .fa {
+    float: right;
+    margin: 4px 0px 0 20px;
+}
+.user-home .account-overview .card {
+    float: right
+}
+.user-home section .card .card-header .fa-pencil {
+    float: left
+}
+.user-home section .card .product-card img {
+    float: right
+}
+.save-items .saved img {
+    float: right
+}
+.save-items .saved .info {
+    float: right
+}
+.save-items .saved .buttons {
+    float: left
+}
+.save-items .saved .remove .fa {
+    float: right;
+    margin-right: 0;
+    margin-left: 5px;
+}
+.address-book .card .card-footer .fa-pencil {
+    float: left
+}
+.card-body .form-check {
+    padding-left: 0;
+    padding-right: 1.25rem
+}
+.top-items h4 {
+    margin-left: 0;
+    margin-right: 15px;
+}
+.top-items .card .info span {
+    right: auto;
+    left: 10px;
+}
+/*End style user-home.html*/
