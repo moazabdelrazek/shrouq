@@ -44,11 +44,16 @@ body{
     margin: 20px 0;
 }
 .product-card .pro-img .social .fa{
-    padding: 5px;
     border: 1px solid #000;
     border-radius: 50%;
     cursor: pointer;
     margin: 10px 5px;
+    width: 40px;
+    height: 40px;
+    text-align: center
+}
+.fa-facebook:before, .fa-twitter:before {
+    line-height: 40px;
 }
 .product-card .pro-img .social .fa:hover{
     color: rgb(21, 123, 240);
@@ -73,6 +78,42 @@ body{
 
 .product-card .few-details .rating-star .checked{
     color: orange;
+}
+.product-card .few-details .select-quantity{
+    width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.product-card .few-details .select-quantity .price{
+    float: left;
+    font-weight: 500;
+    color: rgb(21, 123, 240)
+}
+.product-card .few-details .select-quantity .qu-type{
+    float: right;
+    margin-left: 15px;
+}
+.product-card .few-details .select-quantity .qu-type button{
+    margin: 0 !important;
+    background-color: #ef159c;
+    border: rgb(199, 169, 169);
+    color: rgb(252, 248, 248);
+    padding: 3px 5px;
+    border-radius: 2px;
+}
+.product-card .few-details .select-quantity .qu-type button.active{
+    background-color: rgb(21, 123, 240);
+}
+.product-card .few-details .select-quantity label{
+    float: right;
+    margin-right: 10px;
+    font-weight: 500;
+}
+.product-card .few-details .select-quantity input[type=number]{
+    float: right;
+    padding: 3px 0;
+    width: 50px;
+    height: 30px;
 }
 .product-card .few-details .price{
     margin-bottom: 5px;

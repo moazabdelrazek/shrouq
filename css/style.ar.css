@@ -1,0 +1,290 @@
+/*Start Globale classes ar style*/
+.txt-right {
+    text-align: right !important
+}
+.dir-right {
+    direction: rtl !important
+}
+
+/*start class flex-box & prevfix*/
+.d-fx {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -o-flex;
+    display: flex;
+}
+.fx-dir-res {
+    -moz-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    -webkit-flex-direction: row-reverse;
+    -o-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+}
+/*End Globale classes ar style*/
+
+/*Glovale style element*/
+ul {
+    padding-right: 0;
+}
+
+/*Start style Ar index.html*/
+.navbar form {
+    margin-right: auto !important;
+    margin-left: 0 !important
+}
+form .search-icon {
+    left: auto;
+    right: 19px;
+}
+.search-in {
+    padding-left: 0;
+    padding-right: 38px;
+}
+.search-btn {
+    margin-left: 0px;
+    margin-right: 8px
+}
+.navbar-nav {
+    margin-right: 0 !important;
+    margin-left: auto !important
+}
+.navbar .login-item i {
+    margin-right: 0;
+    margin-left: 20px;
+}
+.navbar .login-item {
+    padding-right: 11px;
+    padding-left: 6px;
+}
+.list-group {
+    padding: 0
+}
+.side-icon {
+    margin-right: 0;
+    margin-left: 18px;
+}
+.features {
+    padding: 0
+}
+.about .features li i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+.open .ribon {
+    left: -10px;
+    right: auto;
+    transform: rotate(-45deg);
+}
+.open .timing {
+    padding: 0;
+}
+.location {
+    margin: 0 68px 64px auto
+}
+.bx4 .img {
+    margin-right: 0;
+    margin-left: 20px
+}
+.pre-footer a i {
+    margin-right: 2px;
+    margin-left: 8px;
+}
+.pre-footer .spli .scl {
+    margin-right: 0;
+    margin-left: 15px
+}
+.pre-footer .spli:hover {
+    transform: translateX(-8px)!important
+}
+.pre-footer ul li:hover {
+    transform: translateX(-25px) !important
+}
+.footer ul {
+    float: left
+}
+.footer select {
+    margin-right: 0;
+    margin-left: 15px;
+}
+.footer ul li {
+    margin-right: 0;
+    margin-left: 22px
+}
+/*End style Ar index.html*/
+
+
+
+/*Start style Ar shopping-cart.html*/
+.cart img {
+    float: right;
+    margin-right: 0;
+    margin-left: 15px;
+}
+.cart .info {
+    margin-left: 0;
+    margin-right: 115px;
+}
+.cart .info .select-quantity .price {
+    float: right;
+}
+.cart .store-name {
+    float: right;
+}
+.cart .order-now {
+    float: left;
+}
+.cart .save {
+    margin-right: 0;
+    margin-left: 25px;
+    padding-right: 0;
+    padding-left: 25px;
+    border-right: none;
+    border-left: 1px solid #999;
+}
+.cart .delete {
+    padding-left: 0;
+}
+
+/*End style Ar shopping-cart.html*/
+
+
+/*Start style Ar forget.html*/
+.fa {
+    margin-right: 0;
+}
+/*End style Ar forget,html*/
+
+
+/*Start style Ar login.html*/
+.login .login-form label {
+    margin-left: 0;
+    margin-right: 5px;
+}
+.login-form span {
+    float: left
+}
+/*End style Ar loging.html*/
+
+/*Start style Ar register*/
+.register .register-form > label {
+    margin: 15px 5px 15px 0px;
+}
+.user-type .form-check {
+    margin-right: 0;
+    margin-right: 50px;
+}
+.form-check-input {
+    margin-left: 0;
+    margin-right: -1.25rem;
+}
+/*End style Ar register*/
+
+/*Start style Ar product-detalis.html*/
+.product-card .main-img {
+    float: right;
+    margin: 0 0px 30px 20px;
+}
+.product-card .image-gallery {
+    float: right
+}
+.product-card .image-gallery img {
+    float: right;
+}
+.product-card .few-details {
+    float: right;
+}
+.product-card .few-details h4 .fa {
+    float: left;
+    margin-right: 10px;
+    margin-right: 0
+}
+.product-card .few-details .select-quantity .price {
+    float: right;
+}
+.product-card .few-details .select-quantity .qu-type {
+    float: left;
+    margin-left: 0;
+    margin-right: 15px;
+}
+.product-card .few-details .select-quantity input[type=number] {
+    float: left
+}
+.product-card .few-details .select-quantity label {
+    float: left;
+    margin-left: 0;
+    margin-right: 10px;
+}
+aside .delivery .delivery-info .fa {
+    float: right;
+    margin: 10px 0px 0 10px;
+}
+aside .seller-info .fa {
+    float: left
+}
+.have-to-sell .fa {
+    float: left
+}
+.technical-specification ul {
+    padding-right: 40px;
+}
+.specification .card {
+    float: right
+}
+.most-popular .card .info span {
+    right: auto;
+    left: 10px;
+}
+.feedback h4 span {
+    float: left
+}
+/*End style Ar product-detalis.html*/
+
+
+/*Start style products.html*/
+.content {
+    float: left
+}
+aside {
+    float: right
+}
+.category nav {
+    float: right
+}
+.category .po-count {
+    float: right;
+    margin-left: 0;
+    margin-right: 70px;
+    text-align: right
+}
+.category .select-category {
+    float: left
+}
+.category .select-category .custom-select {
+    padding: .375rem 1.75rem .375rem .75rem;
+}
+.pro-cards .card .price {
+    float: right;
+    margin-right: 0;
+    margin-left: 5px
+}
+aside .home-office ul {
+    padding-left: 0;
+    padding-right: 20px;
+}
+aside .home-office ul li a .fa {
+    margin-left: 10px;
+    margin-right: 0px;
+}
+aside .brand ul {
+    margin: 10px 0px 10px 40px;
+}
+aside .brand ul input {
+    margin-right: 0;
+    margin-left: 10px;
+}
+aside .progress-price {
+    margin-right: 0;
+    margin-left: 45px;
+}
+/*End style products.html*/
