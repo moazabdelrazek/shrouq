@@ -1,3 +1,17 @@
+/*Start Globale classes*/
+.blue-txt {
+    color: #284C9C !important
+}
+.red-txt {
+    color: #E02129 !important
+}
+.blue-bg {
+    background-color: #284C9C !important
+}
+.red-bg {
+    background-color: #E02129 !important
+}
+/*End Globale classes*/
 .clear{
     clear: both;
 }

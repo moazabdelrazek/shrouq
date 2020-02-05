@@ -34,6 +34,34 @@ h4{
 .register .register-form>label{
     text-transform: capitalize;
     margin: 15px 0 15px 5px;
+    position: relative
+}
+.register .register-form input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid #007bff;
+    vertical-align: text-bottom;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+.register .register-form input[type=checkbox]:checked + .fa-check {
+    display: block
+}
+.register .register-form label .fa-check {
+    position: absolute;
+    top: 6px;
+    left: 3px;
+    font-size: 13px;
+    display: none
 }
 .login-form span{
     float: right;

@@ -71,15 +71,15 @@
                     <aside class="col-md-3 user dir-right txt-right">
                         <div>
                             <ul>
-                                <li class="active"><a data-value=".account-overview" href="#"><i class="fa fa-user-o"></i>my account</a></li>
-                                <li><a data-value=".orders" href="#"><i class="fa fa-hand-o-right"></i>orders</a></li>
-                                <li><a data-value=".reviews" href="#"><i class="fa fa-hand-o-right"></i>pending reviews</a></li>
-                                <li><a data-value=".credit" href="#"><i class="fa fa-credit-card"></i>your credit</a></li>
-                                <li class="divider"><a data-value=".save-items" href="#"><i class="fa fa-heart-o"></i>saved items</a></li>
-                                <li><a data-value=".details" href="#">details</a></li>
-                                <li><a data-value=".address-book" href="#">address book</a></li>
-                                <li><a data-value=".ch-password" href="#">change password</a></li>
-                                <li class="divider"><a data-value=".newsletter" href="#">newsletter preferences</a></li>
+                                <li class="active"><a class="blue-txt" data-value=".account-overview" href="#"><i class="fa fa-user-o"></i>my account</a></li>
+                                <li><a class="blue-txt" data-value=".orders" href="#"><i class="fa fa-hand-o-right"></i>orders</a></li>
+                                <li><a class="blue-txt" data-value=".reviews" href="#"><i class="fa fa-hand-o-right"></i>pending reviews</a></li>
+                                <li><a class="blue-txt" data-value=".credit" href="#"><i class="fa fa-credit-card"></i>your credit</a></li>
+                                <li class="divider"><a class="blue-txt" data-value=".save-items" href="#"><i class="fa fa-heart-o"></i>saved items</a></li>
+                                <li><a class="red-txt" data-value=".details" href="#">details</a></li>
+                                <li><a class="red-txt" data-value=".address-book" href="#">address book</a></li>
+                                <li><a class="red-txt" data-value=".ch-password" href="#">change password</a></li>
+                                <li class="divider"><a class="red-txt" data-value=".newsletter" href="#">newsletter preferences</a></li>
                             </ul>
                             <button><a href="#">log out</a></button>
                         </div>
@@ -87,7 +87,7 @@
                     <!--------------------End of asid ------------------------------>
                     <!-------------------Start of account overview section--------------->
                     <section class="account-overview col-md-9 dir-right txt-right active">
-                        <h4>account overview</h4>
+                        <h4 class="blue-txt">account overview</h4>
                         <div class="card">
                             <div class="card-header">account details<a href="#"><i class="fa fa-pencil"></i></a></div>
                             <div class="card-body">
@@ -115,7 +115,7 @@
                     <!-------------------End of account overview section--------------->
                     <!-------------------Start of Orders section---------------------->
                     <section class="orders col-md-9 dir-right txt-right">
-                        <h4>orders</h4>
+                        <h4 class="blue-txt">orders</h4>
                         <div class="order-item">
                             <div class="card">
                                 <div class="card-header row">
@@ -143,7 +143,7 @@
                                 </div><hr>
                                 <div class="product-card">
                                     <img src="images/pro1.jpg" alt="cart image">
-                                    <h5>description of this product</h5>
+                                    <h5 class="blue-txt">description of this product</h5>
                                     <p>QTY 1</p>
                                 </div>
                             </div>
@@ -152,21 +152,21 @@
                     <!--------------------End of Orders section----------------------->
                     <!-------------------Start of pending reviews section---------------------->
                     <section class="reviews col-md-9 dir-right txt-right">
-                        <h4>reviews</h4>
+                        <h4 class="blue-txt">reviews</h4>
                     </section>
                     <!--------------------End of pending reviews section----------------------->
                     <!-------------------Start of Credit section---------------------->
                     <section class="credit col-md-9 dir-right txt-right">
-                        <h4>your credit</h4>
+                        <h4 class="blue-txt">your credit</h4>
                     </section>
                     <!--------------------End of Credit section----------------------->
                     <!-------------------Start of Save items section---------------------->
                     <section class="save-items col-md-9 dir-right txt-right">
-                        <h4>save items</h4>
+                        <h4 class="blue-txt">save items</h4>
                         <div class="saved">
                             <img src="images/pro1.jpg" alt="cart image">
                             <div class="info">
-                                <h5>description of this product</h5>
+                                <h5 class="red-txt">description of this product</h5>
                                 <p>EGP 230 <span class="discount">-10%</span></p>
                                 <p class="after">EGP 207</p>
                             </div>
@@ -179,7 +179,7 @@
                     <!--------------------End of Save items section----------------------->
                     <!-------------------Start of Details section---------------------->
                     <section class="details col-md-9 dir-right txt-right">
-                        <h4>details</h4>
+                        <h4 class="blue-txt">details</h4>
                         <div class="details-form">
                             <form action="#" class="row">
                                 <div class="form-group col-md-6">
@@ -217,7 +217,7 @@
                     <!--------------------End of Details section----------------------->
                     <!-------------------Start of Address book section---------------------->
                     <section class="address-book col-md-9 dir-right txt-right">
-                        <h4>address book</h4>
+                        <h4 class="blue-txt">address book</h4>
 
                         <div class="card">
                             <div class="card-body">
@@ -232,7 +232,7 @@
                     <!--------------------End of Address book section----------------------->
                     <!-------------------Start of change password section---------------------->
                     <section class="ch-password col-md-9 dir-right txt-right">
-                        <h4>change password</h4>
+                        <h4 class="blue-txt">change password</h4>
                         <form action="#" class="row">
                             <input class="col-md-7" type="password" name="current-pass" id="current-password" placeholder="current password">
                             <input class="col-md-7" type="password" name="new-pass" id="new-password" placeholder="new password">
@@ -243,7 +243,7 @@
                     <!--------------------End of change password section----------------------->
                     <!-------------------Start of Newsletter section---------------------->
                     <section class="newsletter col-md-9 dir-right txt-right">
-                        <h4>newsletter preferences</h4>
+                        <h4 class="blue-txt">newsletter preferences</h4>
                         <div class="row">
                             <div class="col-md-7">
                                 <div class="card">
@@ -251,12 +251,18 @@
                                     <div class="card-body">
                                         <div class="form-check">
                                             <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" value="">English
+                                                <input type="checkbox" class="form-check-input" value=""> 
+                                                &shy;
+                                                English
+                                                <i class="fas fa-check"></i>
                                             </label>
                                         </div>
                                         <div class="form-check">
                                             <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" value="">Arabic
+                                                <input type="checkbox" class="form-check-input" value=""> 
+                                                &shy;
+                                                Arabic
+                                                <i class="fas fa-check"></i>
                                             </label>
                                         </div>
                                     </div>
@@ -268,17 +274,26 @@
                                     <div class="card-body">
                                         <div class="form-check">
                                             <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" value="">daily newsletters for her
+                                                <input type="checkbox" class="form-check-input" value=""> 
+                                                &shy;
+                                                daily newsletters for her
+                                                <i class="fas fa-check"></i>
                                             </label>
                                         </div>
                                         <div class="form-check">
                                             <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" value="">daily newsletters for him
+                                                <input type="checkbox" class="form-check-input" value=""> 
+                                                &shy;
+                                                daily newsletters for him
+                                                <i class="fas fa-check"></i>
                                             </label>
                                         </div>
                                         <div class="form-check">
                                             <label class="form-check-label">
-                                                <input type="checkbox" class="form-check-input" value="" disabled>i don't want to recieve daily newletters
+                                                <input type="checkbox" class="form-check-input" value="" disabled> 
+                                                &shy;
+                                                i don't want to recieve daily newletters
+                                                <i class="fas fa-check"></i>
                                             </label>
                                         </div>
                                     </div>
@@ -294,7 +309,7 @@
         <div class="top-selling">
             <div class="container">
                 <div class="top-items dir-right txt-right">
-                    <h4>top selling</h4><hr>
+                    <h4 class="blue-txt">top selling</h4><hr>
                     <div class="most-popular-products row">
                         <div class="col-lg-2 col-md-4 col-sm-6">
                             <div class="card">
@@ -366,7 +381,7 @@
         <div class="top-selling">
             <div class="container">
                 <div class="top-items dir-right txt-right">
-                    <h4>recently viewed</h4><hr>
+                    <h4 class="blue-txt">recently viewed</h4><hr>
                     <div class="most-popular-products row">
                         <div class="col-lg-2 col-md-4 col-sm-6">
                             <div class="card">
@@ -408,7 +423,7 @@
         <div class="container">
           <div class="row fx-dir-res">
             <div class="col-lg-3 col-md-6 col-sm-6 dir-right txt-right">
-              <h4> Quick Links</h4>
+              <h4 class="blue-txt"> Quick Links</h4>
               <ul class="ula">
                 <li><a href="">about us <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
                 <li><a href="">Faq <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
@@ -420,7 +435,7 @@
               </ul>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-6 dir-right txt-right">
-                <h4> Categories</h4>
+                <h4 class="blue-txt"> Categories</h4>
                 <ul class="ula">
                   <li><a href="">Shops <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
                   <li><a href="">Hotels <i class="fas fa-long-arrow-alt-right" aria-hidden="true"></i></a> </li>
@@ -432,7 +447,7 @@
                 </ul>
               </div>
               <div class="col-lg-3 col-md-6 col-sm-6 dir-right txt-right">
-                  <h4> Contacts</h4>
+                  <h4 class="blue-txt"> Contacts</h4>
                   <ul class="ula">
                     <li><a href=""><i class="fas fa-home" aria-hidden="true"></i>97845 Baker st. 567
                       Los Angeles - US </a> </li>
@@ -442,7 +457,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6 col-sm-6 dir-right txt-right">
-                  <h4> Keep in touch</h4>
+                  <h4 class="blue-txt"> Keep in touch</h4>
                   <ul class="ula">
                     <li>
                       <input type="email" placeholder="your email"><button class="cclr mt-3">submit</button>

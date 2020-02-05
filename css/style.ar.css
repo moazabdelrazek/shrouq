@@ -150,8 +150,13 @@ form .search-icon {
 
 
 /*Start style Ar forget.html*/
-.fa {
+.reset-form .fa {
     margin-right: 0;
+    margin-left: 10px;
+}
+.register .register-form label .fa-check {
+    left: auto;
+    right: 3px;
 }
 /*End style Ar forget,html*/
 
@@ -164,7 +169,11 @@ form .search-icon {
 .login-form span {
     float: left
 }
-/*End style Ar loging.html*/
+.login .login-form label .fa-check {
+    left: auto;
+    right: 3px;
+}
+/*End style Ar login.html*/
 
 /*Start style Ar register*/
 .register .register-form > label {
@@ -336,6 +345,10 @@ aside ul li .fa {
 .top-items .card .info span {
     right: auto;
     left: 10px;
+}
+.newsletter .card .card-body .form-check label .fa-check {
+    left: auto;
+    right: -16px
 }
 /*End style user-home.html*/
 

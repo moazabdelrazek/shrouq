@@ -260,6 +260,36 @@ aside button:hover{
 .newsletter .card{
     margin-bottom: 20px;
 }
+.newsletter .card .card-body .form-check label{
+    position: relative
+}
+.newsletter .card .card-body .form-check input[type=checkbox] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid #007bff;
+    vertical-align: text-bottom;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+}
+.newsletter .card .card-body .form-check input[type=checkbox]:checked + .fa-check {
+    display: block
+}
+.newsletter .card .card-body .form-check label .fa-check {
+    position: absolute;
+    top: 9px;
+    left: -17px;
+    font-size: 13px;
+    display: none
+}
 /******most popular**************/
 .top-items{
     background-color: #fff;
